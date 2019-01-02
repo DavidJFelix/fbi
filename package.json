@@ -1,0 +1,14 @@
+{
+  "name": "fbi",
+  "repository": "https://github.com/DavidJFelix/fbi",
+  "license": "Apache-2.0",
+  "version": "0.0.1",
+  "description": "File Byte Inspector - A file type fingerprinter for typescript/javascript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "David J. Felix <felix.davidj@gmail.com>",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.2.2"
+  }
+}
