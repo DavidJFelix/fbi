@@ -1,8 +1,10 @@
 workflow "Build and deploy on push" {
   on = "push"
-  resolves = ["new-action"]
+  resolves = ["Build"]
 }
 
-action "new-action" {
-  uses = "owner/repo/path@ref"
+action "Build" {
+  uses = "docker://node"
+  runs = "yarn"
+  args = "install --frozen-lockfile"
 }
